@@ -1,0 +1,8 @@
+# Table of contents
+# ------------------
+format: jb-book
+root: notebooks/johdanto
+parts: 
+  - caption: Ohjeita sisällön tuottoon
+    chapters:
+    - file: notebooks/interaktiivinen

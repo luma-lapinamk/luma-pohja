@@ -1,0 +1,29 @@
+# Book settings
+# -------------
+title: Kirjapohja
+author: LUMA-tiimi, Lapin AMK
+copyright: "2022"
+logo: images/logo.png
+
+# Execution settings
+# -------------------
+execute:
+  execute_notebooks: cache
+
+# GitHub-settings
+# ----------------
+repository:
+  url: https://github.com/luma-lapinamk/luma-pohja
+  branch: main
+
+# HTML-settings and launch buttons
+# ---------------------------------
+html:
+  use_issues_button: false
+  use_repository_button: true
+  extra_navbar: <a href="https://jupyterbook.org">Jupyter Book</a> voimaa
+
+launch_buttons:
+  colab_url: "https://colab.research.google.com"
+  binderhub_url: "https://mybinder.org"
+  thebe: true
