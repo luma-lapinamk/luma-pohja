@@ -6,3 +6,6 @@ parts:
   - caption: Ohjeita sisällön tuottoon
     chapters:
     - file: notebooks/interaktiivinen
+  - caption: Liitteet
+    chapters:
+    - file: genindex
