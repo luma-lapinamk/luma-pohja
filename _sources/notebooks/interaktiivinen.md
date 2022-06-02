@@ -16,13 +16,13 @@ Sivulle voidaan tuottaa lukijalle useankaltaista interaktiivista materiaalia sek
 
 ## Esimerkki: interaktiivinen kuvaaja
 
-Käytetään **Thebe**ä joka mahdollistaa koodisolujen ajamisen suoraan sivulla. Klikkaa raketti-ikonia ja valitse ‘Live Code’. Paina tämän jälkeen ‘run’. 
+Käytetään **{index}`Thebe`ä** joka mahdollistaa koodisolujen ajamisen suoraan sivulla. Klikkaa raketti-ikonia ja valitse ‘Live Code’. Paina tämän jälkeen ‘run’. 
 Säädä liukusäätimillä suoran kulmakerrointa ja vakiotermejä, suoran kuvaaja sekä sen yläpuolella oleva suoran yhtälö päivittyvät automaattisesti.
 Kuvaajan tuoton koodit näet klikkaamalla 'Click to show'-painiketta; koodia voi myös muokata haluamakseen ja sitten ajaa (painamalla 'run'); Thebe-tekee
 koodisoluista sisällöltään muokattavia ja ajettavia!
 
 ```{code-cell} ipython3
-:tags: [hide-input]
+:tags: [hide-input, thebe-init]
 import numpy as np
 import matplotlib.pyplot as plt
 import ipywidgets as widgets
