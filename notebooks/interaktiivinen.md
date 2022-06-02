@@ -68,8 +68,9 @@ def suoran_maaritys_ja_plottaus_interaktiivisesti():
                                                                               description='vakiotermi'))
                                           
     return interactive_plot
+```
 
-
+```{code-cell} ipython3
 interactive_plot=suoran_maaritys_ja_plottaus_interaktiivisesti()
 interactive_plot
 ```
