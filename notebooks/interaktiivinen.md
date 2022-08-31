@@ -14,7 +14,7 @@ kernelspec:
 
 Sivulle voidaan tuottaa lukijalle useankaltaista interaktiivista materiaalia sekä myös mahdollistaa sellaisen tuottaminen lukijan toimesta.
 
-## Esimerkki: interaktiivinen kuvaaja
+## Esimerkki: interaktiiviset koodisolut ja interaktiivinen kuvaaja
 
 Käytetään **{index}`Thebe`ä** joka mahdollistaa koodisolujen ajamisen suoraan sivulla. Klikkaa raketti-ikonia ja valitse ‘Live Code’. Paina tämän jälkeen ‘run’. 
 Säädä liukusäätimillä suoran kulmakerrointa ja vakiotermejä, suoran kuvaaja sekä sen yläpuolella oleva suoran yhtälö päivittyvät automaattisesti.
@@ -73,4 +73,12 @@ def suoran_maaritys_ja_plottaus_interaktiivisesti():
 ```{code-cell} ipython3
 interactive_plot=suoran_maaritys_ja_plottaus_interaktiivisesti()
 interactive_plot
+```
+
+Alla koodisolu, jota voidaan myös ajaa ja muokata.  
+
+```{code-cell} ipython3
+# oppimateriaaliin mahd. hyvä laittaa tämänlaisia soluja
+# lukijalle, joita lukija voi muokata ja käyttää
+# "koodailuun"  
 ```
