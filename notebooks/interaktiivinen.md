@@ -82,3 +82,63 @@ Alla koodisolu, jota voidaan myös ajaa ja muokata.
 # lukijalle, joita lukija voi muokata ja käyttää
 # "koodailuun"  
 ```
+
+Täppiä erilaisiin juttuihin, esim. eri vaikeustaso, ja/tai vaikka sisältötyyppi.  
+Seuraavaksi esimerkki:
+
+`````{tab-set}
+
+````{tab-item} Helppo
+Kokeile keskiarvo- ja keskihajonta-parametrien sekä näytteiden lukumäärän 
+vaikutusta sirontakaavioon.  
+
+```ipython3
+# Muokkaa -----------------> 
+x_1_mean = 0.
+x_2_mean = 0.
+standard_deviation = 1.
+num_datapoints = 100  
+# <----------------- Muokkaa
+mean = np.array([[x1_mean, x2_mean]])
+data = mean+scale*np.random.randn((num_datapoints, 2))
+plt.scatter(data[:, 0], data[:, 1], 'r')
+```
+````
+
+````{tab-item} Vaikeampi
+Poimitaan näytteitä kaksiulotteisesta normaalijakaumasta. 
+Alla oleva koodi on virheellinen yhdellä rivillä. Korjaa virhe sekä
+kokeile keskiarvo- ja keskihajonta-parametrien sekä näytteiden lukumäärän 
+vaikutusta sirontakaavioon.  
+
+```ipython3
+# Muokkaa -----------------> 
+x_1_mean = 0.
+x_2_mean = 0.
+standard_deviation = 1.
+num_datapoints = 100  
+# <----------------- Muokkaa
+mean = np.array([[x1_mean, x2_mean]])
+# Muokkaa -----------------> 
+data = np.random.randn((num_datapoints, 2)) # virheellinen
+# <----------------- Muokkaa
+plt.scatter(data[:, 0], data[:, 1], 'r')
+```
+````
+
+````{tab-item} Vaikein
+Tee koodi jossa poimitaan näytteitä kaksiulotteisesta normaalijakaumasta,
+sekä tehdään näytteistä sirontakaavio. Oleta, että satunnaismuuttujien välillä
+on korrelaatiota. Tee koodi sellaiseksi, että korrelaatiokerrointa voidaan 
+helposti säätää ja tutkia.
+
+```ipython3
+# lisää koodisi tänne
+```
+````
+
+````{tab-item} Lisätietoja
+Tehtävän tarkoitus on demonstroida miten poimitaan näytteitä moniulotteisesta
+normaalijakaumasta ja näytteiden visualisointia sirontakaaviolla. 
+````
+`````
