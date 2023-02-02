@@ -90,7 +90,8 @@ Seuraavaksi esimerkki:
 
 ````{tab-item} Helppo
 Kokeile keskiarvo- ja keskihajonta-parametrien sekä näytteiden lukumäärän 
-vaikutusta sirontakaavioon.  
+vaikutusta sirontakaavioon. Käytä ylläolevaa ajettavaa koodisolua koodailuun 
+ja koodin ajamiseen.
 
 ```ipython3
 # Muokkaa -----------------> 
@@ -109,7 +110,8 @@ plt.scatter(data[:, 0], data[:, 1], 'r')
 Poimitaan näytteitä kaksiulotteisesta normaalijakaumasta. 
 Alla oleva koodi on virheellinen yhdellä rivillä. Korjaa virhe sekä
 kokeile keskiarvo- ja keskihajonta-parametrien sekä näytteiden lukumäärän 
-vaikutusta sirontakaavioon.  
+vaikutusta sirontakaavioon. Käytä ylläolevaa ajettavaa koodisolua koodailuun 
+ja koodin ajamiseen.  
 
 ```ipython3
 # Muokkaa -----------------> 
@@ -130,36 +132,16 @@ plt.scatter(data[:, 0], data[:, 1], 'r')
 Tee koodi jossa poimitaan näytteitä kaksiulotteisesta normaalijakaumasta,
 sekä tehdään näytteistä sirontakaavio. Oleta, että satunnaismuuttujien välillä
 on korrelaatiota. Tee koodi sellaiseksi, että korrelaatiokerrointa voidaan 
-helposti säätää ja tutkia.
+helposti säätää ja tutkia. Käytä ylläolevaa ajettavaa koodisolua koodailuun 
+ja koodin ajamiseen.
 
 ```ipython3
 # lisää koodisi tänne
 ```
 ````
 
-````{tab-item} Lisätietoja
+````{tab-item} Tehtävän tarkoitus
 Tehtävän tarkoitus on demonstroida miten poimitaan näytteitä moniulotteisesta
 normaalijakaumasta ja näytteiden visualisointia sirontakaaviolla. 
-````
-`````
-
-Jatkoesimerkki; huom. täppien synkronosointi yli täppisettien mikäli samat nimet.
-
-`````{tab-set}
-
-````{tab-item} Helppo
-Tänne tavaraa.
-````
-
-````{tab-item} Vaikeampi
-Tännekin
-````
-
-````{tab-item} Vaikein
-Ja vieläkin
-````
-
-````{tab-item} Lisätietoja
-Tässä vaan demotaan täppäsynkronisointia.
 ````
 `````
