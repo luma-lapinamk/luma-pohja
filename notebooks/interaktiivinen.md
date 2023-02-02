@@ -95,8 +95,8 @@ ja koodin ajamiseen.
 
 ```ipython3
 # Muokkaa -----------------> 
-x_1_mean = 0.
-x_2_mean = 0.
+x1_mean = 0.
+x2_mean = 0.
 standard_deviation = 1.
 num_datapoints = 100  
 # <----------------- Muokkaa
@@ -116,8 +116,8 @@ ja koodin ajamiseen.
 
 ```ipython3
 # Muokkaa -----------------> 
-x_1_mean = 0.
-x_2_mean = 0.
+x1_mean = 0.
+x2_mean = 0.
 standard_deviation = 1.
 num_datapoints = 100  
 # <----------------- Muokkaa
