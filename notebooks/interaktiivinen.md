@@ -90,10 +90,10 @@ Seuraavaksi esimerkki:
 
 ````{tab-item} Helppo
 Kokeile keskiarvo- ja keskihajonta-parametrien sekä näytteiden lukumäärän 
-vaikutusta sirontakaavioon. 
+vaikutusta sirontakaavioon. Käytä ylläolevaa ajettavaa koodisolua koodailuun 
+ja koodin ajamiseen.
 
 ```ipython3
-:class: thebe
 # Muokkaa -----------------> 
 x1_mean = 0.
 x2_mean = 0.
@@ -111,10 +111,10 @@ plt.xlim((-5, 5)); plt.ylim((-5, 5));
 Poimitaan näytteitä kaksiulotteisesta normaalijakaumasta. 
 Alla oleva koodi on virheellinen yhdellä rivillä. Korjaa virhe sekä
 kokeile keskiarvo- ja keskihajonta-parametrien sekä näytteiden lukumäärän 
-vaikutusta sirontakaavioon. 
+vaikutusta sirontakaavioon. Käytä ylläolevaa ajettavaa koodisolua koodailuun 
+ja koodin ajamiseen.
 
 ```ipython3
-:class: thebe
 # Muokkaa -----------------> 
 x1_mean = 0.
 x2_mean = 0.
@@ -134,12 +134,8 @@ plt.xlim((-5, 5)); plt.ylim((-5, 5));
 Tee koodi jossa poimitaan näytteitä kaksiulotteisesta normaalijakaumasta,
 sekä tehdään näytteistä sirontakaavio. Oleta, että satunnaismuuttujien välillä
 on korrelaatiota. Tee koodi sellaiseksi, että korrelaatiokerrointa voidaan 
-helposti säätää ja tutkia. 
-
-```ipython3
-:class: thebe
-# lisää koodisi tänne
-```
+helposti säätää ja tutkia. Käytä ylläolevaa ajettavaa koodisolua koodailuun 
+ja koodin ajamiseen.
 ````
 
 ````{tab-item} Tehtävän tarkoitus
