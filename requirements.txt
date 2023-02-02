@@ -4,7 +4,6 @@ pandas
 matplotlib
 ipywidgets
 jupytext
-nbclient
 sphinx-click
 sphinx-examples
 sphinx_inline_tabs
