@@ -101,8 +101,9 @@ standard_deviation = 1.
 num_datapoints = 100  
 # <----------------- Muokkaa
 mean = np.array([[x1_mean, x2_mean]])
-data = mean+standard_deviation*np.random.randn((num_datapoints, 2))
-plt.scatter(data[:, 0], data[:, 1], 'r')
+data = mean+standard_deviation*np.random.randn(num_datapoints, 2)
+plt.scatter(data[:, 0], data[:, 1], color='r')
+plt.xlim((-5, 5)); plt.ylim((-5, 5));
 ```
 ````
 
@@ -122,9 +123,10 @@ num_datapoints = 100
 # <----------------- Muokkaa
 mean = np.array([[x1_mean, x2_mean]])
 # Muokkaa -----------------> 
-data = np.random.randn((num_datapoints, 2)) # virheellinen
+data = np.random.randn(num_datapoints, 2) # virheellinen
 # <----------------- Muokkaa
-plt.scatter(data[:, 0], data[:, 1], 'r')
+plt.scatter(data[:, 0], data[:, 1], color='r')
+plt.xlim((-5, 5)); plt.ylim((-5, 5));
 ```
 ````
 
