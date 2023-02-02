@@ -100,7 +100,7 @@ standard_deviation = 1.
 num_datapoints = 100  
 # <----------------- Muokkaa
 mean = np.array([[x1_mean, x2_mean]])
-data = mean+scale*np.random.randn((num_datapoints, 2))
+data = mean+standard_deviation*np.random.randn((num_datapoints, 2))
 plt.scatter(data[:, 0], data[:, 1], 'r')
 ```
 ````
@@ -140,5 +140,26 @@ helposti säätää ja tutkia.
 ````{tab-item} Lisätietoja
 Tehtävän tarkoitus on demonstroida miten poimitaan näytteitä moniulotteisesta
 normaalijakaumasta ja näytteiden visualisointia sirontakaaviolla. 
+````
+`````
+
+Jatkoesimerkki; huom. täppien synkronosointi yli täppisettien mikäli samat nimet.
+
+`````{tab-set}
+
+````{tab-item} Helppo
+Tänne tavaraa.
+````
+
+````{tab-item} Vaikeampi
+Tännekin
+````
+
+````{tab-item} Vaikein
+Ja vieläkin
+````
+
+````{tab-item} Lisätietoja
+Tässä vaan demotaan täppäsynkronisointia.
 ````
 `````

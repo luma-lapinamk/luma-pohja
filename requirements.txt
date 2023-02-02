@@ -3,7 +3,6 @@ scipy
 pandas
 matplotlib
 ipywidgets
-jupytext
 sphinx-click
 sphinx-examples
 sphinx_inline_tabs
