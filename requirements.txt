@@ -1,5 +1,12 @@
-jupyter-book
-matplotlib
 numpy
+scipy
+pandas
+matplotlib
 ipywidgets
-
+jupytext
+nbclient
+sphinx-click
+sphinx-examples
+sphinx_inline_tabs
+sphinx-proof
+sphinxext-rediraffe~=0.2.3
