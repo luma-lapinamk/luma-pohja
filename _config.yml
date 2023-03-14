@@ -9,7 +9,7 @@ email: "luma@lapinamk.fi"
 # Execution settings
 # -------------------
 execute:
-  execute_notebooks: cache
+  execute_notebooks: off
 
 # GitHub-settings
 # ----------------
