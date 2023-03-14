@@ -3,4 +3,4 @@ scipy
 pandas
 matplotlib
 ipywidgets
-
+jupytext
