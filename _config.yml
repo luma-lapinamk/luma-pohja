@@ -11,13 +11,21 @@ email: "luma@lapinamk.fi"
 execute:
   execute_notebooks: force
 
-# GitHub-settings
+# GitHub settings
 # ----------------
 repository:
   url: https://github.com/luma-lapinamk/luma-pohja
   branch: main
 
-# HTML-settings and launch buttons
+# Sphinx settings
+# ----------------
+sphinx:
+  config:
+      html_js_files:
+          - https://cdnjs.cloudflare.com/ajax/libs/require.js/2.3.4/require.min.js
+
+
+# HTML settings and launch buttons
 # ---------------------------------
 html:
   use_issues_button: false
